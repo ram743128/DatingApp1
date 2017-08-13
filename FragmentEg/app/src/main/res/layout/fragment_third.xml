@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/thirdfrag_bg"
+    tools:context="com.ram.fragmenteg.ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+       android:id="@+id/tv_3"
+        android:layout_weight="3"
+       android:layout_width="match_parent"
+       android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/Count_btn3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="100dp"
+        android:textColor="@color/colorAccent"
+        android:text="Count" />
+</LinearLayout>

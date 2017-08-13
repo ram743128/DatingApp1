@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ram.asynctaskc.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/download_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="99dp"
+        android:layout_above="@+id/download"
+        android:layout_alignLeft="@+id/download"
+        android:layout_alignStart="@+id/download"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="95dp" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="dowanload"
+        android:onClick="download"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="219dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp" />
+
+</RelativeLayout>

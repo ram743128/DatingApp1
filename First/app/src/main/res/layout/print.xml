@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dec2ac"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO HOW R U"
+        android:textColor="#d41c0b"
+        android:textSize="50dp"
+        android:id="@+id/hello"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textColor="#318c18"
+        android:background="#70d9c7"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="80sp"
+        android:id="@+id/click"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Go"
+    />
+</LinearLayout>

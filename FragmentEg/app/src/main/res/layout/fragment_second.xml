@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/secondfrag_bg"
+    tools:context="com.ram.fragmenteg.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+       android:id="@+id/tv_2"
+       android:layout_weight="2"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       />
+    <Button
+        android:id="@+id/count_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+
+</LinearLayout>
